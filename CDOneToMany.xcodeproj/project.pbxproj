@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C281FF8B157B88D80036B629 /* AGSubItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C281FF8A157B88D80036B629 /* AGSubItem.m */; };
+		C281FF8F157BA5000036B629 /* AGAddMasterItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C281FF8E157BA5000036B629 /* AGAddMasterItemViewController.m */; };
+		C29E9B26157A236D00D82190 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9B25157A236D00D82190 /* UIKit.framework */; };
+		C29E9B28157A236D00D82190 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9B27157A236D00D82190 /* Foundation.framework */; };
+		C29E9B2A157A236D00D82190 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9B29157A236D00D82190 /* CoreGraphics.framework */; };
+		C29E9B2C157A236D00D82190 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29E9B2B157A236D00D82190 /* CoreData.framework */; };
+		C29E9B32157A236D00D82190 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29E9B30157A236D00D82190 /* InfoPlist.strings */; };
+		C29E9B34157A236D00D82190 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B33157A236D00D82190 /* main.m */; };
+		C29E9B38157A236D00D82190 /* AGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B37157A236D00D82190 /* AGAppDelegate.m */; };
+		C29E9B3B157A236D00D82190 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C29E9B39157A236D00D82190 /* MainStoryboard.storyboard */; };
+		C29E9B3E157A236D00D82190 /* CDOneToMany.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B3C157A236D00D82190 /* CDOneToMany.xcdatamodeld */; };
+		C29E9B41157A236D00D82190 /* AGMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B40157A236D00D82190 /* AGMasterViewController.m */; };
+		C29E9B44157A236D00D82190 /* AGDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B43157A236D00D82190 /* AGDetailViewController.m */; };
+		C29E9B4D157A24B400D82190 /* AGDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B4C157A24B400D82190 /* AGDetailTableViewController.m */; };
+		C29E9B53157A27B600D82190 /* AGAddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B52157A27B500D82190 /* AGAddItemViewController.m */; };
+		C29E9B5B157A2BE000D82190 /* AGMasterItem.m in Sources */ = {isa = PBXBuildFile; fileRef = C29E9B59157A2AA600D82190 /* AGMasterItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C281FF89157B88D80036B629 /* AGSubItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGSubItem.h; sourceTree = "<group>"; };
+		C281FF8A157B88D80036B629 /* AGSubItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGSubItem.m; sourceTree = "<group>"; };
+		C281FF8D157BA5000036B629 /* AGAddMasterItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAddMasterItemViewController.h; sourceTree = "<group>"; };
+		C281FF8E157BA5000036B629 /* AGAddMasterItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAddMasterItemViewController.m; sourceTree = "<group>"; };
+		C29E9B21157A236D00D82190 /* CDOneToMany.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CDOneToMany.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C29E9B25157A236D00D82190 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C29E9B27157A236D00D82190 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C29E9B29157A236D00D82190 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C29E9B2B157A236D00D82190 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		C29E9B2F157A236D00D82190 /* CDOneToMany-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CDOneToMany-Info.plist"; sourceTree = "<group>"; };
+		C29E9B31157A236D00D82190 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C29E9B33157A236D00D82190 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C29E9B35157A236D00D82190 /* CDOneToMany-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CDOneToMany-Prefix.pch"; sourceTree = "<group>"; };
+		C29E9B36157A236D00D82190 /* AGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGAppDelegate.h; sourceTree = "<group>"; };
+		C29E9B37157A236D00D82190 /* AGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGAppDelegate.m; sourceTree = "<group>"; };
+		C29E9B3A157A236D00D82190 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C29E9B3D157A236D00D82190 /* CDOneToMany.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CDOneToMany.xcdatamodel; sourceTree = "<group>"; };
+		C29E9B3F157A236D00D82190 /* AGMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGMasterViewController.h; sourceTree = "<group>"; };
+		C29E9B40157A236D00D82190 /* AGMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGMasterViewController.m; sourceTree = "<group>"; };
+		C29E9B42157A236D00D82190 /* AGDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AGDetailViewController.h; sourceTree = "<group>"; };
+		C29E9B43157A236D00D82190 /* AGDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGDetailViewController.m; sourceTree = "<group>"; };
+		C29E9B4B157A24B400D82190 /* AGDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDetailTableViewController.h; sourceTree = "<group>"; };
+		C29E9B4C157A24B400D82190 /* AGDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDetailTableViewController.m; sourceTree = "<group>"; };
+		C29E9B51157A27B500D82190 /* AGAddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGAddItemViewController.h; sourceTree = "<group>"; };
+		C29E9B52157A27B500D82190 /* AGAddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGAddItemViewController.m; sourceTree = "<group>"; };
+		C29E9B58157A2AA600D82190 /* AGMasterItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGMasterItem.h; sourceTree = "<group>"; };
+		C29E9B59157A2AA600D82190 /* AGMasterItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGMasterItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C29E9B1E157A236C00D82190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9B26157A236D00D82190 /* UIKit.framework in Frameworks */,
+				C29E9B28157A236D00D82190 /* Foundation.framework in Frameworks */,
+				C29E9B2A157A236D00D82190 /* CoreGraphics.framework in Frameworks */,
+				C29E9B2C157A236D00D82190 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29E9B16157A236C00D82190 = {
+			isa = PBXGroup;
+			children = (
+				C29E9B2D157A236D00D82190 /* CDOneToMany */,
+				C29E9B24157A236D00D82190 /* Frameworks */,
+				C29E9B22157A236D00D82190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C29E9B22157A236D00D82190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B21157A236D00D82190 /* CDOneToMany.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C29E9B24157A236D00D82190 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B25157A236D00D82190 /* UIKit.framework */,
+				C29E9B27157A236D00D82190 /* Foundation.framework */,
+				C29E9B29157A236D00D82190 /* CoreGraphics.framework */,
+				C29E9B2B157A236D00D82190 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29E9B2D157A236D00D82190 /* CDOneToMany */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B57157A2A8100D82190 /* Models */,
+				C29E9B36157A236D00D82190 /* AGAppDelegate.h */,
+				C29E9B37157A236D00D82190 /* AGAppDelegate.m */,
+				C29E9B39157A236D00D82190 /* MainStoryboard.storyboard */,
+				C29E9B56157A284F00D82190 /* Not Used */,
+				C29E9B4A157A239800D82190 /* Controllers */,
+				C29E9B3C157A236D00D82190 /* CDOneToMany.xcdatamodeld */,
+				C29E9B2E157A236D00D82190 /* Supporting Files */,
+			);
+			path = CDOneToMany;
+			sourceTree = "<group>";
+		};
+		C29E9B2E157A236D00D82190 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B2F157A236D00D82190 /* CDOneToMany-Info.plist */,
+				C29E9B30157A236D00D82190 /* InfoPlist.strings */,
+				C29E9B33157A236D00D82190 /* main.m */,
+				C29E9B35157A236D00D82190 /* CDOneToMany-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C29E9B4A157A239800D82190 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B55157A283800D82190 /* Masters */,
+				C29E9B54157A281700D82190 /* Details */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		C29E9B54157A281700D82190 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B4B157A24B400D82190 /* AGDetailTableViewController.h */,
+				C29E9B4C157A24B400D82190 /* AGDetailTableViewController.m */,
+				C29E9B51157A27B500D82190 /* AGAddItemViewController.h */,
+				C29E9B52157A27B500D82190 /* AGAddItemViewController.m */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		C29E9B55157A283800D82190 /* Masters */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B3F157A236D00D82190 /* AGMasterViewController.h */,
+				C29E9B40157A236D00D82190 /* AGMasterViewController.m */,
+				C281FF8D157BA5000036B629 /* AGAddMasterItemViewController.h */,
+				C281FF8E157BA5000036B629 /* AGAddMasterItemViewController.m */,
+			);
+			name = Masters;
+			sourceTree = "<group>";
+		};
+		C29E9B56157A284F00D82190 /* Not Used */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B42157A236D00D82190 /* AGDetailViewController.h */,
+				C29E9B43157A236D00D82190 /* AGDetailViewController.m */,
+			);
+			name = "Not Used";
+			sourceTree = "<group>";
+		};
+		C29E9B57157A2A8100D82190 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C29E9B58157A2AA600D82190 /* AGMasterItem.h */,
+				C29E9B59157A2AA600D82190 /* AGMasterItem.m */,
+				C281FF89157B88D80036B629 /* AGSubItem.h */,
+				C281FF8A157B88D80036B629 /* AGSubItem.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C29E9B20157A236C00D82190 /* CDOneToMany */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C29E9B47157A236D00D82190 /* Build configuration list for PBXNativeTarget "CDOneToMany" */;
+			buildPhases = (
+				C29E9B1D157A236C00D82190 /* Sources */,
+				C29E9B1E157A236C00D82190 /* Frameworks */,
+				C29E9B1F157A236C00D82190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CDOneToMany;
+			productName = CDOneToMany;
+			productReference = C29E9B21157A236D00D82190 /* CDOneToMany.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C29E9B18157A236C00D82190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AG;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C29E9B1B157A236C00D82190 /* Build configuration list for PBXProject "CDOneToMany" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C29E9B16157A236C00D82190;
+			productRefGroup = C29E9B22157A236D00D82190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C29E9B20157A236C00D82190 /* CDOneToMany */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C29E9B1F157A236C00D82190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9B32157A236D00D82190 /* InfoPlist.strings in Resources */,
+				C29E9B3B157A236D00D82190 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C29E9B1D157A236C00D82190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C29E9B5B157A2BE000D82190 /* AGMasterItem.m in Sources */,
+				C29E9B34157A236D00D82190 /* main.m in Sources */,
+				C29E9B38157A236D00D82190 /* AGAppDelegate.m in Sources */,
+				C29E9B3E157A236D00D82190 /* CDOneToMany.xcdatamodeld in Sources */,
+				C29E9B41157A236D00D82190 /* AGMasterViewController.m in Sources */,
+				C29E9B44157A236D00D82190 /* AGDetailViewController.m in Sources */,
+				C29E9B4D157A24B400D82190 /* AGDetailTableViewController.m in Sources */,
+				C29E9B53157A27B600D82190 /* AGAddItemViewController.m in Sources */,
+				C281FF8B157B88D80036B629 /* AGSubItem.m in Sources */,
+				C281FF8F157BA5000036B629 /* AGAddMasterItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C29E9B30157A236D00D82190 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29E9B31157A236D00D82190 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C29E9B39157A236D00D82190 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C29E9B3A157A236D00D82190 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C29E9B45157A236D00D82190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C29E9B46157A236D00D82190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C29E9B48157A236D00D82190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDOneToMany/CDOneToMany-Prefix.pch";
+				INFOPLIST_FILE = "CDOneToMany/CDOneToMany-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C29E9B49157A236D00D82190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CDOneToMany/CDOneToMany-Prefix.pch";
+				INFOPLIST_FILE = "CDOneToMany/CDOneToMany-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C29E9B1B157A236C00D82190 /* Build configuration list for PBXProject "CDOneToMany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29E9B45157A236D00D82190 /* Debug */,
+				C29E9B46157A236D00D82190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C29E9B47157A236D00D82190 /* Build configuration list for PBXNativeTarget "CDOneToMany" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C29E9B48157A236D00D82190 /* Debug */,
+				C29E9B49157A236D00D82190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C29E9B3C157A236D00D82190 /* CDOneToMany.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C29E9B3D157A236D00D82190 /* CDOneToMany.xcdatamodel */,
+			);
+			currentVersion = C29E9B3D157A236D00D82190 /* CDOneToMany.xcdatamodel */;
+			path = CDOneToMany.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C29E9B18157A236C00D82190 /* Project object */;
+}
